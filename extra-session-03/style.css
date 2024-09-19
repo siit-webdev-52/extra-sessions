@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.container {
+    height: 100vh;
+    padding: 2rem;
+    background-image: url('assets/img/bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    margin-top: 40vh;
+}
+
+.hero-section{
+    margin-top: 2rem;
+}
+
+#cta{
+    background-color: rgba(255, 166, 0, 0.856);
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#cta:hover{
+    background-color: orange;
+}
