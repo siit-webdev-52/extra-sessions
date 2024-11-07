@@ -1,0 +1,29 @@
+h1{
+    color: teal
+}
+
+.parent{
+    border: 1px solid #555;
+    display: flex;
+    justify-content: center;
+}
+
+.child{
+    width: 10rem;
+    /* height: 10rem; */
+    aspect-ratio: 1;
+    border: 3px solid;
+    padding: 1rem;
+    /* margin:  0 auto; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#child-1{
+    background-color: teal;
+    border-color: aqua;
+    position: relative;
+    top: 3rem;
+    border-radius: 10rem;
+}
